@@ -1,0 +1,10 @@
+{
+  "name": "nzr-car-play-license-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Server-side 48-hour trial and activation code service for NzR Car Play",
+  "main": "server.js",
+  "scripts": {"start": "node server.js"},
+  "engines": {"node": ">=20"},
+  "dependencies": {"better-sqlite3": "^11.8.1", "express": "^4.21.2"}
+}
